@@ -180,5 +180,8 @@ Now these changes have migrated to our parent `develop` branch, `develop` will a
 This highlights a big benefit of CI when you perform merges (and apply pull requests). As new branch code is merged into upstream branches like `develop` and `main` these newly integrated code changes are automatically tested *together* with existing code - which of course may also have changed in the meantime!
 
 
+### (Optional) Further improve your CI pipeline
+1. Configure your BitBucket Pipeline to also run `pylint`.
+2. Configure Continuous Integration for one of your own projects.
 {% include links.md %}
  
