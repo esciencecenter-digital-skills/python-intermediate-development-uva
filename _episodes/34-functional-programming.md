@@ -1,5 +1,5 @@
 ---
-title: "Functional Programming"
+title: "Functional Programming (optional)"
 teaching: 30
 exercises: 30
 questions:

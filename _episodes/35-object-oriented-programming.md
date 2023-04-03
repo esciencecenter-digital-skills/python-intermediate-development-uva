@@ -1,5 +1,5 @@
 ---
-title: "Object Oriented Programming"
+title: "Object Oriented Programming (optional)"
 teaching: 30
 exercises: 20
 questions:

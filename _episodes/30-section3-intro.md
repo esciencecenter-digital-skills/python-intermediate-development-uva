@@ -20,8 +20,6 @@ In this section, we will take a step back from coding development practices and 
 
 > *"If you fail to plan, you are planning to fail."* - Benjamin Franklin
 
-![Software design and architecture](../fig/section3-overview.png){: .image-with-shadow width="800px" }
-
 ### Writing Code vs Engineering Software
 
 Traditionally in academia, software - and the process of writing it - is often seen as a necessary but throwaway artefact in research. For example, there may be research questions for a given research project, code is created to answer those questions, the code is run over some data and analysed, and finally a publication is written based on those results. These steps are often taken informally.
@@ -61,7 +59,8 @@ In this section we will place the actual writing of software (implementation) wi
 
 - Explore the **importance of software requirements**, the different classes of requirements, and how we can interpret and capture them.
 - How requirements inform and drive the **design of software**, the importance, role, and examples of **software architecture**, and the ways we can describe a software design.
-- **Implementation choices** in terms of **programming paradigms**, looking at **procedural**, **functional**, and **object oriented** paradigms of development. Modern software will often contain instances of multiple paradigms, so it is worthwhile being familiar with them and knowing when to switch in order to make better code.
+- **Implementation choices** in terms of **programming paradigms**, looking at **procedural**, **functional**, and **object oriented** paradigms of development. 
+  Modern software will often contain instances of multiple paradigms, so it is worthwhile being familiar with them and knowing when to switch in order to make better code. 
 - How you can (and should) assess and update a software's architecture when requirements change and complexity increases - is the architecture still fit for purpose, or are modifications and extensions becoming increasingly difficult to make?
 
 
