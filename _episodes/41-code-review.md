@@ -174,12 +174,12 @@ that existing implementation to make sure the new feature indeed satisfies the r
 changes to their repository (the shared repository in this context) via pull request 
 (acting as the code author) and engage in code review with your team member (acting as a code reviewer). 
 Similarly, you will receive a pull request on your repository from another team member, 
-in which case the roles will be reversed. {% comment %} TODO The following diagram depicts the branches that you should have in the repository.
+in which case the roles will be reversed. The following diagram depicts the branches that you should have in the repository.
 
 ![Branches for a feature and its tests](../fig/exercise-feature-branch.svg){: .image-with-shadow width="800px"}
 <p style="text-align: center;">
 Adapted from <a href="https://sillevl.gitbooks.io/git/content/collaboration/workflows/gitflow/" target="_blank">Git Tutorial by sillevl</a> (Creative Commons Attribution 4.0 International License)
-</p> {% endcomment %}
+</p>
 
 To achieve this, the following steps are needed.
 
@@ -194,18 +194,6 @@ to enable them to create branches and pull requests. To do so, each repository o
 4. Enter your collaborator's email address that they used to sign up with Bitbucket.
 5. Give your collaborator **Read** access and click on **Confirm**.
 6. Your collaborator will receive an email to confirm the invitation. They need to click on the **Accept my invitation** link in the email, and then **Accept invitation** in Bitbucket.
-
-{% comment %}
-1. Head over to Settings section of your software project's repository in GitHub.
-   ![Accessing settings for a repository in GitHub](../fig/github-settings.png){: .image-with-shadow width="900px"}
-2. Select the **vertical** tab 'Collaborators' from the left and click the 'Add people' button.
-   ![Managing access to a repository in GitHub](../fig/github-manage-access.png){: .image-with-shadow width="900px"}
-3. Add your collaborator(s) by their GitHub username(s), full name(s) or email address(es).
-   ![Adding collaborators to a repository in GitHub](../fig/github-add-collaborators.png){: .image-with-shadow width="900px"}
-4. Collaborator(s) will be notified of your invitation to join your repository based on their notification preferences.
-5. Once they accept the invitation, they will have the collaborator-level access to your repository and will show up
-in the list of your collaborators.
-{% endcomment %}
 
 See the full details on [grant repository access to users and groups](https://support.atlassian.com/bitbucket-cloud/docs/grant-repository-access-to-users-and-groups/) 
 to understand what collaborators will be able to do within your repository.
@@ -314,10 +302,8 @@ Perform the above actions on the pull request you received, this time acting as 
 #### Step 6: Closing a Pull Request
 
 1. Once the moderator approves your changes, either one of you can merge onto the base branch. Typically, it is 
-the responsibility of the code's author to do the merge but this may differ from team to team.
-{% comment %}
-   ![Merging a pull request in GitHub](../fig/github-merge-pull-request.png){: .image-with-shadow width="900px"}
-{% endcomment %}
+the responsibility of the code's author to do the merge but this may differ from team to team. 
+You can merge the pull request by clicking on the 'Merge' button on the top right.
 2. Delete the merged branch to reduce the clutter in the repository.
 
 Repeat the above actions for the pull request you received.
