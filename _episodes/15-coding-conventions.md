@@ -359,7 +359,8 @@ However, there are some restrictions. Comments that simply restate what the code
 > ~~~
 >  {: .language-bash}
 >
-> Next look at the `inflammation-analysis.py` file and identify where the above guidelines have not been followed. Fix
+> Next look at the `inflammation-analysis.py` file and identify where the above guidelines have not been followed. 
+> Tip: All IDEs can be configured to automatically highlight most code style violoations! Fix
 > the discovered inconsistencies and commit them to the feature branch.
 >> ## Solution
 >> Ideally, modify `inflammation-analysis.py` with an editor that helpfully marks inconsistencies with
@@ -440,6 +441,7 @@ However, there are some restrictions. Comments that simply restate what the code
 
 > ## Optional Exercise: Improve Code Style of Your Other Python Projects
 > If you have another Python project, check to which extent it conforms to PEP8 coding style.
+> Or if you have projects in another programming language: see how they conform to the coding style guide of that language.
 {: .challenge}
 
 ### Documentation Strings aka Docstrings

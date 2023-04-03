@@ -155,11 +155,11 @@ $ git push origin main
 ~~~
 {: .language-bash}
 
-> ## Optional Exercise: Improve Code Style of Your Other Python Projects
-> If you have a Python project you are working on or you worked on in the past, run it past Pylint to see what issues
+> ## Optional Exercise: Improve Code Style of Your Other rojects
+> If you have a project you are working on or you worked on in the past, run it past Pylint to see what issues
 > with your code are detected, if any.
 {: .challenge}
 
-It is possible to automate these kind of code checks with Bitbucket's Continuous Integration service Bitbucket Pipelines.
+It is possible to automate these kind of code checks with Bitbucket's Continuous Integration service Bitbucket Pipelines. We will get to that in the next seciont.
 
 {% include links.md %}
