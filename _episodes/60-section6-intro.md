@@ -5,10 +5,10 @@ start: true
 teaching: 5
 exercises: 0
 questions:
-- "What are the benefits of Continuous Delivery and "
+- "What are the benefits of Continuous Delivery/Continuous Deployment"
 
 objectives:
-- "Understand the benefits of Continuous Delivery."
+- "Understand the benefits of Continuous Delivery/Continuous Deployment."
 keypoints:
 - "Continuous Delivery automates the software release process, which enables you to deliver updates faster"
 ---
