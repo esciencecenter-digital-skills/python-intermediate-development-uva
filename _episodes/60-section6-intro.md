@@ -44,6 +44,7 @@ Depending on your needs you can choose one over the other.
 > > * Automated software release process
 > > * Improve developer productivity
 > > * Address bugs quickly
+> > * Reduce human error
 > > * Deliver updates fast
 > > * Deployments are coupled to your version control system
 > {: .solution}
